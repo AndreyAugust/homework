@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
     public static void main(String[] args) {
 	Scanner console = new Scanner(System.in);
@@ -9,4 +10,18 @@
 		}
 	System.out.println(sum);
 	System.out.println(x);
+=======
+public class HW {
+
+    public static void main(String[] args) {
+	Scanner console = new Scanner(System.in);
+	int MIN = Integer.MAX_VALUE;
+	while (console.hasnextInt())
+		{
+		int x = console.nextInt();
+		if (x<min)
+		min = x;
+		}
+	System.out.println(min);
+>>>>>>> stdin
 } }
