@@ -2,12 +2,12 @@ public class HW {
 
     public static void main(String[] args) {
 	Scanner console = new Scanner(System.in);
-	int MAX = Integer.MIN_VALUE;
+	int MIN = Integer.MAX_VALUE;
 	while (console.hasnextInt())
 		{
 		int x = console.nextInt();
-		if (x>max)
-		max = x;
+		if (x<min)
+		min = x;
 		}
-	System.out.println(max);
+	System.out.println(min);
 } }
